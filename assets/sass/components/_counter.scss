@@ -1,0 +1,120 @@
+.counter {
+    @extend %of-hidden;
+    &--style1 {
+        .counter {
+            &__item {
+
+
+                &-inner {
+                    @extend %py-65,
+                    %text-center;
+                }
+
+                &-thumb {
+                    @extend %mb-30;
+                }
+
+                &-content {
+                    h3 {
+                        @extend %mb-20;
+                        color: $white-color;
+
+                    }
+
+                    h5 {
+                        color: $white-color;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .col-md-3 {
+            &:not(:last-child) {
+                .counter__item {
+                    @extend %p-rel;
+
+                    &::before {
+                        @extend %p-abs;
+                        content: "";
+                        height: 2px;
+                        width: 100px;
+                        bottom: 0;
+                        left: 39%;
+                        background-color: $brand2-bg-1;
+
+                        @include breakpoint(md) {
+                            width: 2px;
+                            height: 101px;
+                            left: auto;
+                            right: 0;
+                            top: 30%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &--style2 {
+        .counter {
+            &__wrapper {
+                @include breakpoint(max-md) {
+                    padding-block: 30px;
+                }
+            }
+
+            &__item {
+
+                &-inner {
+                    @extend %d-flex;
+                    gap: 25px;
+
+                    // @include breakpoint(lg) {
+                    //     padding-block: 65px;
+                    // }
+                    @include breakpoint(md) {
+                        padding-block: 45px;
+                    }
+                    @include breakpoint(lg) {
+                        padding-block: 65px;
+                    }
+                }
+
+
+
+                &-content {
+                    h3 {
+                        @extend %mb-5;
+                        color: $white-color;
+
+                    }
+
+                    p {
+                        @extend %text-medium,
+                        %mb-0;
+                        @include font-size(18px);
+                        color: $white-color;
+                    }
+                }
+            }
+
+            // &:not(:last-child) {
+            //     .col-md-3 {
+            //         .counter__item {
+            //             &-thumb {
+            //                 @extend %mb-30;
+            //             }
+            //         }
+            //     }
+            // }
+
+            // &-thumb {
+            //     &:not(:last-child) {
+            //         @extend %mb-30;
+            //     }
+
+            // }
+        }
+    }
+}

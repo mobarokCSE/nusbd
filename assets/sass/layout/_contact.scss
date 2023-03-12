@@ -1,0 +1,54 @@
+.contact {
+  &__header {
+    @extend %mb-65;
+  }
+
+  &__item {
+    @extend %d-flex,
+    %align-i-center;
+    gap: 30px;
+
+    &:not(:last-child) {
+      @extend %mb-40;
+    }
+
+    &-thumb {
+      @extend %p-rel;
+      @include box(80px);
+      background-color: $brand-bg-1;
+      border-radius: 50px;
+
+      svg {
+        @extend %p-abs,
+        %pos-center;
+        @include font-size(48px);
+        color: $brand-color-1;
+      }
+    }
+
+    &-content {
+      h5 {
+        @extend %text-semibold;
+      }
+
+      p {
+        max-inline-size: 30ch;
+        color: $text-color-light;
+      }
+    }
+  }
+
+  &__form {
+    @extend %p-50;
+    background-color: $brand-bg-1;
+    border-radius: 16px;
+
+  }
+
+  &__map{
+    .map{
+          border-radius: 16px;
+    }
+
+  }
+}

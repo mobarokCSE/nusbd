@@ -1,0 +1,217 @@
+.team {
+    @extend %of-hidden;
+
+    &--style1 {
+        .team {
+            &__item {
+                &-inner {
+                    @extend %p-rel;
+                }
+
+                &-thumb {
+                    @extend %of-hidden;
+                    border-radius: 20px;
+
+                    img {
+                        @extend %w-100;
+                        @include add-prefix(transition, $transition);
+                        object-fit: cover;
+                    }
+                }
+
+                &-content {
+                    &--style1 {
+                        @extend %p-abs;
+                        color: $white-color;
+                        transform: translate(-50%, -50%);
+                        position: absolute;
+                        content: "";
+                        left: 50%;
+                        bottom: -10%;
+                        width: 100%;
+                    }
+
+                    &--style2 {
+                        @extend %p-abs,
+                        %py-15;
+                        color: $white-color;
+                        transform: translate(-50%, -50%);
+                        position: absolute;
+                        content: "";
+                        left: 50%;
+                        bottom: -18%;
+                        width: 100%;
+                        background-color: rgba($color: $title-color, $alpha: .40);
+                        border-bottom-left-radius: 17px;
+                        border-bottom-right-radius: 17px;
+
+                        @include breakpoint(sm){
+                            bottom: -26%;
+                        }
+                        @include breakpoint(md){
+                            bottom: -19%;
+                        }
+                        @include breakpoint(lg){
+                            bottom: -30%;
+                        }
+                        @include breakpoint(xl){
+                            bottom: -25%;
+                        }
+
+                        @include breakpoint(xxl) {
+                            bottom: -21%;
+                            border-bottom-left-radius: 20px;
+                            border-bottom-right-radius: 20px;
+                        }
+                    }
+                }
+
+                &-author {
+                    @extend %text-center;
+
+                    h6 {
+                        color: $white-color;
+                        @include add-prefix(transition, $transition);
+                    }
+                }
+
+                &:hover {
+
+                    .team__item {
+                        &-thumb {
+                            img {
+                                @include add-prefix(transform, scale(1.05));
+                            }
+                        }
+
+                        &-author {
+                            h6 {
+                                a {
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+
+
+            }
+
+            &__wrapper {
+                .section-header {
+
+                    // margin-block-end: 0;
+                    p {
+                        @include font-size(16px);
+                    }
+
+                    @include breakpoint(max-md) {
+                        margin-block-end: 20px;
+                    }
+
+                    @include breakpoint(max-xl) {
+                        margin-block-end: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    &--style2 {
+        .team {
+            &__item {
+                &-thumb {
+                    @extend %of-hidden;
+
+                    img {
+                        @extend %w-100;
+                        @include add-prefix(transition, $transition);
+                        object-fit: cover;
+                    }
+                }
+
+                &-author {
+                    @extend %text-center,
+                    %mt-20;
+
+                    h6 {
+                        @include add-prefix(transition, $transition);
+                    }
+                }
+
+                &:hover {
+
+                    .team__item {
+                        &-thumb {
+                            img {
+                                @include add-prefix(transform, scale(1.05));
+                            }
+                        }
+
+                        &-author {
+                            h6 {
+                                a {
+                                    color: $brand-color-3;
+                                }
+
+
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+            &__slider1 {
+                max-height: 1020px;
+            }
+
+            &__slider2 {
+                max-height: 1080px;
+            }
+        }
+    }
+
+    &--details {
+        .team {
+            &__thumb {
+                @extend %of-hidden;
+                border-radius: 20px;
+
+                img {
+                    @extend %w-100;
+                    @include add-prefix(transition, $transition);
+                    object-fit: cover;
+
+                    &:hover {
+                        @include add-prefix(transform, scale(1.05));
+                    }
+                }
+            }
+
+            &__content {
+                .designation {
+                    @extend %mb-10;
+                    color: $text-color-light;
+                }
+
+                >span {
+                    @extend %text-semibold;
+                    color: $secondary-color-4;
+
+                    svg {
+                        color: $secondary-color-4;
+                    }
+                }
+
+                .info {
+                    @extend %mt-25;
+                }
+            }
+        }
+    }
+
+}

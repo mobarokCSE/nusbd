@@ -1,0 +1,15 @@
+.gallery{
+    @extend %of-hidden;
+    &__wrapper{
+        img{
+            width: 100%;
+        }
+        a{
+            @extend %mt-40, %justify-center;
+
+            @include breakpoint(lg){
+                margin-top: 80px;
+            }
+        }
+    }
+}

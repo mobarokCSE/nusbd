@@ -1,0 +1,37 @@
+.feature {
+  background-color: $brand1-bg-2;
+
+  &__item {
+    &-inner {
+      background-color: $white-color;
+      border-radius: 25px;
+    }
+  }
+
+  &__thumb {
+    @extend %of-hidden;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    img {
+      @extend %w-100;
+      @include add-prefix(transition, $transition);
+
+    }
+
+    &:hover {
+      img {
+        @include add-prefix(transform, scale(1.05));
+      }
+    }
+  }
+
+  &__content {
+    @extend %p-25;
+
+    p {
+      color: $text-color;
+    }
+  }
+}

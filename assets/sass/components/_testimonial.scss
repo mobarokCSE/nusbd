@@ -1,0 +1,352 @@
+.testimonial {
+
+  &--style1 {
+    .testimonial {
+      &__item {
+        @extend %text-center;
+        color: $white-color;
+
+        &-content {
+          span {
+            svg {
+              @include font-size(70px);
+              @extend %mb-40;
+              color: $secondary-color-1;
+            }
+          }
+
+          blockquote {
+            p {
+              @extend %text-regular;
+              @include font-size(36px);
+              color: $white-color;
+              max-inline-size: 53ch;
+              margin: 0 auto;
+            }
+          }
+
+          // h3 {
+          //   @extend %text-center;
+          //   font-weight: 400;
+          //   color: $white-color;
+
+          // }
+
+        }
+
+        &-author {
+          @extend %mt-40;
+
+          >p {
+            @extend %mb-10;
+            @include font-size(20px);
+            font-weight: 600;
+          }
+        }
+      }
+
+      &__author {
+        max-width: 90%;
+
+        @include breakpoint(sm) {
+          max-width: 70%;
+        }
+
+        @include breakpoint(md) {
+          max-width: 65%;
+        }
+
+        @include breakpoint(lg) {
+          max-width: 55%;
+        }
+
+        @include breakpoint(xl) {
+          max-width: 45%;
+        }
+
+        &-thumb {
+          img {
+            border: 1px solid transparent;
+            border-radius: 65px;
+            padding: 5px;
+            max-width: 60px;
+            cursor: pointer;
+
+            @include breakpoint(sm) {
+              max-width: 70px;
+            }
+
+            @include breakpoint(md) {
+              max-width: 80px;
+            }
+
+            @include breakpoint(lg) {
+              max-width: 90px;
+            }
+
+            @include breakpoint(xl) {
+              max-width: 100px;
+            }
+          }
+        }
+
+        .swiper-slide {
+          &-thumb-active {
+            img {
+              border: 1px solid $secondary-color-1;
+              border-radius: 65px;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &--style2 {
+    .testimonial {
+      &__wrapper {
+        @extend %p-rel;
+      }
+
+      &__item {
+        &-inner {
+          @extend %py-40,
+          %px-25;
+          background-color: $white-color;
+          border-radius: 16px;
+        }
+
+        &-content {
+          span {
+            @extend %mb-20;
+
+            svg {
+              @include font-size(70px);
+              color: $brand-color-2;
+            }
+          }
+
+        }
+      }
+
+      &__footer {
+        @extend %d-flex,
+        %align-i-center,
+        %justify-between,
+        %mt-40;
+      }
+
+      &__author {
+        @extend %d-flex,
+        %align-i-center;
+        gap: 20px;
+
+        &-thumb {
+          img {
+            max-width: 60px;
+          }
+
+        }
+
+        &-designation {
+          h6 {
+            @extend %mb-5;
+            font-weight: 600;
+
+          }
+
+          span {
+            @include font-size(14px);
+            color: $text-color-light;
+          }
+        }
+      }
+
+      &__rating {
+        span {
+          svg {
+            font-size: 18px;
+            color: $tertiary-color-2;
+          }
+        }
+      }
+
+      &__shape {
+        &-item {
+          @extend %p-abs;
+
+          &:nth-child(1) {
+            @extend %d-none;
+            width: 100px;
+            bottom: -5%;
+            left: -5%;
+
+            &.banner__shape-item--animation {
+              @include animation(floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+            }
+
+            @include breakpoint(md) {
+              display: block;
+            }
+
+            @include breakpoint(lg) {
+              width: 150px;
+            }
+
+            @include breakpoint(xl) {
+              width: auto;
+            }
+          }
+
+          &:nth-child(2) {
+            @extend %d-none;
+            width: 100px;
+            bottom: -5%;
+            right: -5%;
+
+            &.banner__shape-item--animation {
+              @include animation(floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate);
+            }
+
+            @include breakpoint(md) {
+              display: block;
+            }
+
+            @include breakpoint(lg) {
+              width: 150px;
+            }
+
+            @include breakpoint(xl) {
+              width: auto;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  &--style3 {
+    .testimonial {
+      &__writer {
+        @extend %mb-25;
+
+        @include breakpoint(lg) {
+          margin-block-end: 65px
+        }
+
+        h5 {
+          @extend %text-semibold;
+        }
+
+        p {
+          @extend %mb-10;
+          color: $text-color-light;
+        }
+
+        >span {
+          svg {
+            color: $secondary-color-3;
+          }
+        }
+
+      }
+
+      &__content {
+        blockquote {
+          p {
+            @include font-size(18px);
+          }
+
+        }
+
+        .quote {
+          @extend %text-right,
+          %d-inherit;
+
+          svg {
+            @include font-size(70px);
+            color: $brand-color-3;
+          }
+        }
+      }
+
+      &__thumb {
+        @extend %p-rel,
+        %text-center;
+        object-fit: cover;
+        transition: $transition;
+
+        &-playbtn {
+          @extend %p-abs,
+          %pos-center;
+
+          p {
+            @extend %mb-5;
+            @include font-size(18px);
+            color: $white-color;
+          }
+
+          span {
+            @include font-size(14px);
+            color: $secondary-color-3;
+          }
+
+          a {
+            img {
+              @extend %mb-10;
+              object-fit: cover;
+              transition: $transition;
+              width: 60px;
+
+              @include breakpoint(sm){
+                width: auto;
+              }
+            }
+          }
+
+          &:hover {
+            a {
+              img {
+                @include add-prefix (transform, scale(1.05));
+              }
+
+            }
+          }
+
+        }
+      }
+
+      &__storyteller {
+        @extend %d-flex,
+        %align-i-center,
+        %p-10;
+        @include add-prefix(transition, $transition);
+        gap: 10px;
+
+        &-content {
+          h6 {
+            @extend %text-semibold;
+          }
+ 
+          p {
+            color: $text-color-light;
+          }
+        }
+
+
+
+        .swiper-slide {
+          &-active {
+            background-color: $white-color;
+          }
+        }
+
+      }
+
+
+    }
+  }
+
+}
