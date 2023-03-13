@@ -22,7 +22,7 @@ Tags: airline , travel company.
   justify-content: center;
 }
 
-.accordion__button, .coursedetails--style2 .coursedetails__header, .coursedetails--style1 .coursedetails__footer, .testimonial--style2 .testimonial__footer, .blog--details .blog .sidebar__commentForm .body form, .blog--details .blog .sidebar__comment .body ul li .content__top, .blog--details .blog .sidebar__relatedpost .body ul, .blog--details .blog .sidebar__categorie .body ul li, .blog--style2 .blog__header, .blog--style1 .blog__view, .blog--style1 .blog__header, .course--style4 .course__content-top, .course--style3 .course__content-bottom, .course--style3 .course__content-top, .course--style2 .course__content, .course--style1 .course__topbar, .course--style1 .course__view, .course--style1 .course__content-bottom, .course--style1 .course__content-top, .about--style5 .about__counter, .account__form-passcheck, .header-wrapper .header-start--style1, .header-wrapper {
+.accordion__button, .coursedetails--style2 .coursedetails__header, .coursedetails--style1 .coursedetails__footer, .testimonial--style2 .testimonial__footer, .blog.home .blog__meta ul, .blog--details .blog .sidebar__commentForm .body form, .blog--details .blog .sidebar__comment .body ul li .content__top, .blog--details .blog .sidebar__relatedpost .body ul, .blog--details .blog .sidebar__categorie .body ul li, .blog--style2 .blog__header, .blog--style1 .blog__view, .blog--style1 .blog__header, .course--style4 .course__content-top, .course--style3 .course__content-bottom, .course--style3 .course__content-top, .course--style2 .course__content, .course--style1 .course__topbar, .course--style1 .course__view, .course--style1 .course__content-bottom, .course--style1 .course__content-top, .about--style5 .about__counter, .account__form-passcheck, .header-wrapper .header-start--style1, .header-wrapper {
   justify-content: space-between;
 }
 
@@ -68,7 +68,7 @@ Tags: airline , travel company.
   display: block;
 }
 
-.studentreview__thumb-top, .accordion__button .lesson, .accordion__button, .cta__content-inner .subtitle, .coursedetails--style2 .coursedetails__header, .coursedetails--style1 .coursedetails__footer, .coursedetails--style1 .coursedetails__offer-price, .coursedetails--style1 .coursedetails__overview .overview-list li, .counter--style2 .counter__item-inner, .testimonial--style3 .testimonial__storyteller, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .blog--details .blog .sidebar__commentForm .body form, .blog--details .blog .sidebar__comment .body ul li .content__top, .blog--details .blog .sidebar__author .body, .blog--details .blog .sidebar__relatedpost .body ul, .blog--details .blog .sidebar__categorie .body ul li, .blog--details .blog .sidebar .body ul li, .blog--details .blog__tag .tags, .blog--details .blog__meta ul, .blog--style2 .blog__writer, .blog--style2 .blog__author, .blog--style2 .blog__header, .blog--style1 .blog__header, .course--style4 .course__content-top, .course--style3 .course__mentor, .course--style3 .course__content-bottom, .course--style3 .course__content-top, .course--style2 .course__content, .course--style1 .course__topbar-left .select, .course--style1 .course__topbar, .course--style1 .course__content-top, .about--style5 .about__counter, .about--style3 .about__details-item, .about--style2 .about__content-item, .categories--style2 .categories__item, .footer__end-links, .footer__post .footer__wrapper ul li, .footer__about-inner, .account__form-passcheck, .contact__item, .banner .reviews__thumb ul, .banner .reviews__thumb, .banner__content-star, .section-header .subtitle, .paginations ul li a, .community__reviews-content ul, .community__reviews-content {
+.studentreview__thumb-top, .accordion__button .lesson, .accordion__button, .cta__content-inner .subtitle, .coursedetails--style2 .coursedetails__header, .coursedetails--style1 .coursedetails__footer, .coursedetails--style1 .coursedetails__offer-price, .coursedetails--style1 .coursedetails__overview .overview-list li, .counter--style2 .counter__item-inner, .testimonial--style3 .testimonial__storyteller, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .blog.home .blog__meta ul, .blog--details .blog .sidebar__commentForm .body form, .blog--details .blog .sidebar__comment .body ul li .content__top, .blog--details .blog .sidebar__author .body, .blog--details .blog .sidebar__relatedpost .body ul, .blog--details .blog .sidebar__categorie .body ul li, .blog--details .blog .sidebar .body ul li, .blog--details .blog__tag .tags, .blog--details .blog__meta ul, .blog--style2 .blog__writer, .blog--style2 .blog__author, .blog--style2 .blog__header, .blog--style1 .blog__header, .course--style4 .course__content-top, .course--style3 .course__mentor, .course--style3 .course__content-bottom, .course--style3 .course__content-top, .course--style2 .course__content, .course--style1 .course__topbar-left .select, .course--style1 .course__topbar, .course--style1 .course__content-top, .about--style5 .about__counter, .about--style3 .about__details-item, .about--style2 .about__content-item, .categories--style2 .categories__item, .footer__end-links, .footer__post .footer__wrapper ul li, .footer__about-inner, .account__form-passcheck, .contact__item, .banner .reviews__thumb ul, .banner .reviews__thumb, .banner__content-star, .section-header .subtitle, .paginations ul li a, .community__reviews-content ul, .community__reviews-content {
   display: flex;
 }
 
@@ -76,7 +76,7 @@ Tags: airline , travel company.
   display: grid;
 }
 
-.social__link, .blog--details .blog .sidebar__author .body .content ul li, .blog--details .blog .sidebar__author .body .content span, .blog--details .blog__tag .tags li a, .blog--details .blog__tag .tags li span i, .blog--details .blog__meta ul li, .blog--style3 .blog__meta-tag, .blog--style1 .blog__meta-tag, .course--style1 .course__meta-tag, .trk-btn, .footer__linklist-item a, .account__switch a, .account__social-btn span, .header-bar span {
+.social__link, .blog.home .blog__meta ul li, .blog.home .blog__thumb .date, .blog--details .blog .sidebar__author .body .content ul li, .blog--details .blog .sidebar__author .body .content span, .blog--details .blog__tag .tags li a, .blog--details .blog__tag .tags li span i, .blog--details .blog__meta ul li, .blog--style3 .blog__meta-tag, .blog--style1 .blog__meta-tag, .course--style1 .course__meta-tag, .trk-btn, .footer__linklist-item a, .account__switch a, .account__social-btn span, .header-bar span {
   display: inline-block;
 }
 
@@ -90,11 +90,11 @@ Tags: airline , travel company.
 
 /*=========<<Display property extends end>>=========*/
 /*=========<<Position property extends start>>=========*/
-.newsletter__content-inner--style4, .newsletter__content-inner--style1, .studentreview__thumb, .accordion__button .plus-icon, .coursedetails--style1 .coursedetails__thumb, .counter--style1 .col-md-3:not(:last-child) .counter__item, .testimonial--style3 .testimonial__thumb, .testimonial--style2 .testimonial__wrapper, .community--style2 .community__thumb-inner, .community--style1 .community__reviews, .blog--details .blog .sidebar__search form, .blog--details .blog__tag .tags li span, .blog--style3 .blog__thumb, .blog--style2 .blog__thumb, .blog--style1 .blog__meta-comment, .blog--style1 .blog__thumb, .team--style1 .team__item-inner, .story__thumb-inner, .course--style4 .course__thumb, .course--style2 .course__thumb, .course--style1 .course__topbar-left .select, .course--style1 .course__meta-comment, .course--style1 .course__thumb, .about--style4, .about--style3 .about, .about--style1 .about__thumb-video, .about--style1 .about__thumb-image, .categories--style1 .categories__item-inner, .trk-btn, .footer__linklist-item a, .contact__item-thumb, .banner .reviews__thumb ul li .count, .banner__video-inner, .banner__content--style1, .banner.brand-3, .banner.brand-4 .banner-image, .banner.brand-4, .banner.brand-1 .banner-image, .banner.brand-1, .menu-item-has-children > a, .header-bar, .paginations ul li a, .form {
+.newsletter__content-inner--style4, .newsletter__content-inner--style1, .studentreview__thumb, .accordion__button .plus-icon, .coursedetails--style1 .coursedetails__thumb, .counter--style1 .col-md-3:not(:last-child) .counter__item, .testimonial--style3 .testimonial__thumb, .testimonial--style2 .testimonial__wrapper, .community--style2 .community__thumb-inner, .community--style1 .community__reviews, .blog.home .blog__thumb, .blog--details .blog .sidebar__search form, .blog--details .blog__tag .tags li span, .blog--style3 .blog__thumb, .blog--style2 .blog__thumb, .blog--style1 .blog__meta-comment, .blog--style1 .blog__thumb, .team--style1 .team__item-inner, .story__thumb-inner, .course--style4 .course__thumb, .course--style2 .course__thumb, .course--style1 .course__topbar-left .select, .course--style1 .course__meta-comment, .course--style1 .course__thumb, .about--style4, .about--style3 .about, .about--style1 .about__thumb-video, .about--style1 .about__thumb-image, .categories--style1 .categories__item-inner, .trk-btn, .footer__linklist-item a, .contact__item-thumb, .banner .reviews__thumb ul li .count, .banner__video-inner, .banner__content--style1, .banner.brand-3, .banner.brand-4 .banner-image, .banner.brand-4, .banner.brand-1 .banner-image, .banner.brand-1, .menu-item-has-children > a, .header-bar, .paginations ul li a, .form {
   position: relative;
 }
 
-.studentreview__thumb-playbtn, .studentreview__thumb-top, .accordion__button .plus-icon:before, .accordion__button .plus-icon:after, .coursedetails--style1 .coursedetails__thumb-playbtn, .counter--style1 .col-md-3:not(:last-child) .counter__item::before, .testimonial--style3 .testimonial__thumb-playbtn, .testimonial--style2 .testimonial__shape-item, .community--style2 .community__thumb-playbtn, .blog--details .blog .sidebar__search form button, .blog--details .blog__tag .tags li span::after, .blog--style1 .blog__btn, .team--style1 .team__item-content--style2, .team--style1 .team__item-content--style1, .story__thumb-playbtn, .course--style2 .course__thumb-add, .course--style1 .course__topbar-left .select::after, .course--style1 .course__btn, .about--style4 .about__shape-item, .about--style3 .about__icon-item, .about--style1 .about__thumb-plybtn, .about--style1 .about__thumb-video, .footer__linklist-item a::after, .contact__item-thumb svg, .banner .reviews__thumb ul li .count span, .banner__icon--style2 .banner__icon-item, .banner__icon--style1 .banner__icon-item, .banner__shape-item, .banner__video-inner span, .banner__video, .banner.brand-4::after, .banner.brand-1::after, .menu-item-has-children > a::before, .menu-item-has-children > a::after, .header-bar span, .header-section--style2 {
+.studentreview__thumb-playbtn, .studentreview__thumb-top, .accordion__button .plus-icon:before, .accordion__button .plus-icon:after, .coursedetails--style1 .coursedetails__thumb-playbtn, .counter--style1 .col-md-3:not(:last-child) .counter__item::before, .testimonial--style3 .testimonial__thumb-playbtn, .testimonial--style2 .testimonial__shape-item, .community--style2 .community__thumb-playbtn, .blog.home .blog__thumb .date, .blog--details .blog .sidebar__search form button, .blog--details .blog__tag .tags li span::after, .blog--style1 .blog__btn, .team--style1 .team__item-content--style2, .team--style1 .team__item-content--style1, .story__thumb-playbtn, .course--style2 .course__thumb-add, .course--style1 .course__topbar-left .select::after, .course--style1 .course__btn, .about--style4 .about__shape-item, .about--style3 .about__icon-item, .about--style1 .about__thumb-plybtn, .about--style1 .about__thumb-video, .footer__linklist-item a::after, .contact__item-thumb svg, .banner .reviews__thumb ul li .count span, .banner__icon--style2 .banner__icon-item, .banner__icon--style1 .banner__icon-item, .banner__shape-item, .banner__video-inner span, .banner__video, .banner.brand-4::after, .banner.brand-1::after, .menu-item-has-children > a::before, .menu-item-has-children > a::after, .header-bar span, .header-section--style2 {
   position: absolute;
 }
 
@@ -132,6 +132,10 @@ Tags: airline , travel company.
   font-weight: 600;
 }
 
+.blog.home .blog__content .read-more {
+  font-weight: 700;
+}
+
 /*=========<<Text property extends end>>=========*/
 /*=========<<Margin & padding property extends start>>=========*/
 /*-------<< margin properties >>-------*/
@@ -166,7 +170,7 @@ ol {
   margin-inline-start: 5px;
 }
 
-.accordion__body .overview-list li svg, .blog--details .blog .sidebar__categorie .body ul li a i, .blog--details .blog__meta ul li i, .trk-btn svg, .footer__post .footer__wrapper ul li .content .date i, .footer__links-content img {
+.accordion__body .overview-list li svg, .blog.home .blog__meta ul li i, .blog.home .blog__thumb .date i, .blog--details .blog .sidebar__categorie .body ul li a i, .blog--details .blog__meta ul li i, .trk-btn svg, .footer__post .footer__wrapper ul li .content .date i, .footer__links-content img {
   margin-inline-end: 5px;
 }
 
@@ -209,7 +213,7 @@ ol {
   margin-block-start: 20px;
 }
 
-.accordion__body .overview-list li:not(:last-child), .coursedetails--style1 .coursedetails__overview .overview-list li:not(:last-child), .coursedetails--style1 .coursedetails__info ul li a, .coursedetails--style1 .coursedetails__header p, .coursedetails--style1 .coursedetails__header h3, .counter--style1 .counter__item-content h3, .testimonial--style2 .testimonial__item-content span, .community--style2 .community__content-inner h2, .blog--details .blog__content h2, .blog--style2 .blog__large-date, .blog--style2 .blog__large-content h5, .course--style4 .course__content-top, .course--style3 .course__content h6, .course--style3 .course__content-top, .course--style1 .course__content-top, .about--style4 .about__content h2, .about--style1 .about__content-inner h3, .footer__post .footer__wrapper ul li, .footer__about-item:not(:last-child), .account__header h4, .banner__content--style3 h1, .banner__content--style2 h1, .banner__content--style1 h1, .banner__content-star, .section-header h2, .subtitle, .form input {
+.accordion__body .overview-list li:not(:last-child), .coursedetails--style1 .coursedetails__overview .overview-list li:not(:last-child), .coursedetails--style1 .coursedetails__info ul li a, .coursedetails--style1 .coursedetails__header p, .coursedetails--style1 .coursedetails__header h3, .counter--style1 .counter__item-content h3, .testimonial--style2 .testimonial__item-content span, .community--style2 .community__content-inner h2, .blog.home .blog__meta, .blog--details .blog__content h2, .blog--style2 .blog__large-date, .blog--style2 .blog__large-content h5, .course--style4 .course__content-top, .course--style3 .course__content h6, .course--style3 .course__content-top, .course--style1 .course__content-top, .about--style4 .about__content h2, .about--style1 .about__content-inner h3, .footer__post .footer__wrapper ul li, .footer__about-item:not(:last-child), .account__header h4, .banner__content--style3 h1, .banner__content--style2 h1, .banner__content--style1 h1, .banner__content-star, .section-header h2, .subtitle, .form input {
   margin-block-end: 20px;
 }
 
@@ -218,7 +222,7 @@ ol {
 }
 
 /*-------<< margin properties >>-------*/
-.community--style2 .community__content-inner a.trk-btn, .team--details .team__content .info, .footer__end-links, .footer__end-copyright, .footer__links-content {
+.community--style2 .community__content-inner a.trk-btn, .blog__two .blog__meta, .team--details .team__content .info, .footer__end-links, .footer__end-copyright, .footer__links-content {
   margin-block-start: 25px;
 }
 
@@ -307,7 +311,7 @@ ol {
   padding-inline-start: 0;
 }
 
-.blog--details .blog .sidebar__author .body .content ul li a, .banner__video-inner > svg {
+.blog.home .blog__inner, .blog--details .blog .sidebar__author .body .content ul li a, .banner__video-inner > svg {
   padding: 5px;
 }
 
@@ -323,7 +327,7 @@ ol {
   padding-block-start: 10px;
 }
 
-.coursedetails--style2 .coursedetails__info-item {
+.coursedetails--style2 .coursedetails__info-item, .blog.home .blog__meta {
   padding-block-end: 10px;
 }
 
@@ -351,8 +355,12 @@ ol {
   padding-inline: 15px;
 }
 
-.blog--details .blog .sidebar__commentForm .body form, .blog--details .blog .sidebar__author .body, .blog--details .blog .sidebar__relatedpost .body, .blog--details .blog .sidebar__tags .body, .blog--details .blog .sidebar__search .body, .community__reviews {
+.blog.home .blog__content, .blog--details .blog .sidebar__commentForm .body form, .blog--details .blog .sidebar__author .body, .blog--details .blog .sidebar__relatedpost .body, .blog--details .blog .sidebar__tags .body, .blog--details .blog .sidebar__search .body, .community__reviews {
   padding: 20px;
+}
+
+.blog__two .blog__meta {
+  padding-block-start: 20px;
 }
 
 .footer__post .footer__wrapper ul li, .banner-image {
@@ -437,11 +445,13 @@ ol {
 
 /*=========<<Margin property extends end>>=========*/
 /*=========<<overflow property extends start>>=========*/
-.accordion__item, .coursedetails--style1 .coursedetails__info ul li a, .feature__thumb, .counter, .partner, .gallery, .community, .blog--details .blog .sidebar__relatedpost .body ul li .thumb, .blog--details .blog .sidebar__recentpost .body ul li .thumb, .blog--details .blog__thumb, .blog--style3 .blog__thumb, .blog--style3 .blog__item, .blog--style2 .blog__thumb, .blog--style2 .blog__item, .blog--style2 .blog__large-thumb, .blog--style2 .blog__wrapper .brand2-bg-1, .blog--style1 .blog__thumb, .blog--style1 .blog__item, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style1 .team__item-thumb, .team, .story, .course--style4 .course__thumb, .course--style4 .course__item, .course--style3 .course__thumb, .course--style3 .course__item, .course--style2 .course__thumb-inner, .course--style1 .course__thumb, .course--style1 .course__item, .course, .about--style5 .about__thumb-image, .about, .categories--style3 .categories__item-thumb, .categories--style1 .categories__item-inner, .categories, .trk-btn, .footer__post .footer__wrapper ul li .thumb a img, .footer__post .footer__wrapper ul li .thumb, .footer, .account, .studentreview__thumb-top p, .footer__post .footer__wrapper ul li .content p a, .blog--details .blog .sidebar .body ul li .content h6 a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4 {
+.accordion__item, .coursedetails--style1 .coursedetails__info ul li a, .feature__thumb, .counter, .partner, .gallery, .community, .blog.home .blog__thumb, .blog--details .blog .sidebar__relatedpost .body ul li .thumb, .blog--details .blog .sidebar__recentpost .body ul li .thumb, .blog--details .blog__thumb, .blog--style3 .blog__thumb, .blog--style3 .blog__item, .blog--style2 .blog__thumb, .blog--style2 .blog__item, .blog--style2 .blog__large-thumb, .blog--style2 .blog__wrapper .brand2-bg-1, .blog--style1 .blog__thumb, .blog--style1 .blog__item, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style1 .team__item-thumb, .team, .story, .course--style4 .course__thumb, .course--style4 .course__item, .course--style3 .course__thumb, .course--style3 .course__item, .course--style2 .course__thumb-inner, .course--style1 .course__thumb, .course--style1 .course__item, .course, .about--style5 .about__thumb-image, .about, .categories--style3 .categories__item-thumb, .categories--style1 .categories__item-inner, .categories, .trk-btn, .footer__post .footer__wrapper ul li .thumb a img, .footer__post .footer__wrapper ul li .thumb, .footer, .account, .studentreview__thumb-top p, .footer__post .footer__wrapper ul li .content p a, .blog.home .blog__content h4 a,
+.blog.home .blog__content h3 a, .blog--details .blog .sidebar .body ul li .content h6 a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4 {
   overflow: hidden;
 }
 
-.accordion__item, .coursedetails--style1 .coursedetails__info ul li a, .feature__thumb, .counter, .partner, .gallery, .community, .blog--details .blog .sidebar__relatedpost .body ul li .thumb, .blog--details .blog .sidebar__recentpost .body ul li .thumb, .blog--details .blog__thumb, .blog--style3 .blog__thumb, .blog--style3 .blog__item, .blog--style2 .blog__thumb, .blog--style2 .blog__item, .blog--style2 .blog__large-thumb, .blog--style2 .blog__wrapper .brand2-bg-1, .blog--style1 .blog__thumb, .blog--style1 .blog__item, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style1 .team__item-thumb, .team, .story, .course--style4 .course__thumb, .course--style4 .course__item, .course--style3 .course__thumb, .course--style3 .course__item, .course--style2 .course__thumb-inner, .course--style1 .course__thumb, .course--style1 .course__item, .course, .about--style5 .about__thumb-image, .about, .categories--style3 .categories__item-thumb, .categories--style1 .categories__item-inner, .categories, .trk-btn, .footer__post .footer__wrapper ul li .thumb a img, .footer__post .footer__wrapper ul li .thumb, .footer, .account, .studentreview__thumb-top p, .footer__post .footer__wrapper ul li .content p a, .blog--details .blog .sidebar .body ul li .content h6 a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4 {
+.accordion__item, .coursedetails--style1 .coursedetails__info ul li a, .feature__thumb, .counter, .partner, .gallery, .community, .blog.home .blog__thumb, .blog--details .blog .sidebar__relatedpost .body ul li .thumb, .blog--details .blog .sidebar__recentpost .body ul li .thumb, .blog--details .blog__thumb, .blog--style3 .blog__thumb, .blog--style3 .blog__item, .blog--style2 .blog__thumb, .blog--style2 .blog__item, .blog--style2 .blog__large-thumb, .blog--style2 .blog__wrapper .brand2-bg-1, .blog--style1 .blog__thumb, .blog--style1 .blog__item, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style1 .team__item-thumb, .team, .story, .course--style4 .course__thumb, .course--style4 .course__item, .course--style3 .course__thumb, .course--style3 .course__item, .course--style2 .course__thumb-inner, .course--style1 .course__thumb, .course--style1 .course__item, .course, .about--style5 .about__thumb-image, .about, .categories--style3 .categories__item-thumb, .categories--style1 .categories__item-inner, .categories, .trk-btn, .footer__post .footer__wrapper ul li .thumb a img, .footer__post .footer__wrapper ul li .thumb, .footer, .account, .studentreview__thumb-top p, .footer__post .footer__wrapper ul li .content p a, .blog.home .blog__content h4 a,
+.blog.home .blog__content h3 a, .blog--details .blog .sidebar .body ul li .content h6 a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4 {
   overflow: hidden;
 }
 
@@ -453,7 +463,7 @@ ol {
 
 /*=========<<Cursor property extends end>>=========*/
 /*=========<< Height-Width property extends start>>=========*/
-.accordion__button, .feature__thumb img, .blog--details .blog .sidebar__author .body .content, .blog--details .blog .sidebar__author .body .thumb, .blog--details .blog .sidebar__relatedpost .body ul li .thumb img, .blog--details .blog .sidebar__relatedpost .body ul li, .blog--details .blog__thumb img, .blog--style3 .blog__thumb img, .blog--style2 .blog__thumb img, .blog--style2 .blog__large-thumb img, .blog--style1 .blog__thumb img, .team--details .team__thumb img, .team--style2 .team__item-thumb img, .team--style1 .team__item-thumb img, .course--style4 .course__thumb img, .course--style3 .course__thumb img, .course--style2 .course__thumb-inner img, .course--style1 .course__thumb img, .about--style5 .about__thumb img, .categories--style3 .categories__item-thumb img, .account__social-btn, .account__form .default-btn, .header-bar span, .header-section.header-fixed, .form input,
+.accordion__button, .feature__thumb img, .blog.home .blog__thumb img, .blog--details .blog .sidebar__author .body .content, .blog--details .blog .sidebar__author .body .thumb, .blog--details .blog .sidebar__relatedpost .body ul li .thumb img, .blog--details .blog .sidebar__relatedpost .body ul li, .blog--details .blog__thumb img, .blog--style3 .blog__thumb img, .blog--style2 .blog__thumb img, .blog--style2 .blog__large-thumb img, .blog--style1 .blog__thumb img, .team--details .team__thumb img, .team--style2 .team__item-thumb img, .team--style1 .team__item-thumb img, .course--style4 .course__thumb img, .course--style3 .course__thumb img, .course--style2 .course__thumb-inner img, .course--style1 .course__thumb img, .about--style5 .about__thumb img, .categories--style3 .categories__item-thumb img, .account__social-btn, .account__form .default-btn, .header-bar span, .header-section.header-fixed, .form input,
 .form textarea {
   width: 100%;
 }
@@ -467,7 +477,8 @@ ol {
 
 /*=========<< List Style property extends end>>=========*/
 /* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
-.blog--details .blog .sidebar .body ul li .content h6 a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4 {
+.blog.home .blog__content h4 a,
+.blog.home .blog__content h3 a, .blog--details .blog .sidebar .body ul li .content h6 a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -5284,6 +5295,51 @@ ol {
 }
 .blog--details .blog .sidebar__commentForm .body form .lab-btn {
   border: none;
+}
+.blog.home .blog__inner {
+  background-color: #fff;
+  border: 1px solid #F2F6F9;
+}
+.blog.home .blog__inner:hover .blog__thumb img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.blog.home .blog__inner:hover .blog__content h4 a {
+  color: #081A28;
+}
+.blog.home .blog__inner:hover .blog__content .read-more {
+  color: #081A28;
+}
+.blog.home .blog__thumb .date {
+  color: #fff;
+  bottom: 15px;
+  left: 15px;
+  padding: 5px 15px;
+  background-color: #081A28;
+}
+.blog.home .blog__content .read-more {
+  text-transform: capitalize;
+}
+.blog.home .blog__meta {
+  border-bottom: 1px solid #F2F6F9;
+}
+.blog.home .blog__meta ul li {
+  text-transform: capitalize;
+}
+.blog.home .blog__meta ul li i {
+  color: #081A28;
+}
+.blog__two .blog__meta {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  border-bottom: none !important;
+  border-top: 1px solid black;
+}
+.blog.bg-primary .section__header h2 {
+  color: #fff;
 }
 
 .community--style1 .community__reviews {
